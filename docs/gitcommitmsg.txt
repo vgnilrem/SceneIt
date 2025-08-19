@@ -1,4 +1,5 @@
-Short description of commit
+Added regostermodal function into the Nav.jsx file for create an account. Also added logo correctly as png.
 
 
-Longer explanation of reasoning behind commit
+basically copied the work done to the hero page with the get started button, but did it for the create an account tag in navbar.
+svg for sceneit was deleted, replaced with png with correct color and routing in nav.
