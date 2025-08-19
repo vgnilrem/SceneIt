@@ -1,5 +1,5 @@
-Added regostermodal function into the Nav.jsx file for create an account. Also added logo correctly as png.
+Nav working as intended. links set up for modal and shows page. 
 
 
-basically copied the work done to the hero page with the get started button, but did it for the create an account tag in navbar.
-svg for sceneit was deleted, replaced with png with correct color and routing in nav.
+Added code to popup the register modal, shows page is also linked. Ready to be merged to develop to merge all of the components together.
+Still need to add links / modal for the log in, playlists, and search tabs.

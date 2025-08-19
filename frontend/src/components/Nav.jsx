@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Search, Menu, X } from 'lucide-react';
 import RegisterModal from './Register'; // import your modal
+import { Link } from 'react-router-dom';
+
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,12 +55,12 @@ const Nav = () => {
                 >
                   Create an Account
                 </button>
-                <a
-                  href="#"
+                <Link
+                  to="/shows"
                   className="hover:text-secondary transition-colors duration-200 font-normal"
                 >
                   Shows
-                </a>
+                </Link>
                 <a
                   href="#"
                   className="hover:text-secondary transition-colors duration-200 font-normal"
@@ -126,12 +128,12 @@ const Nav = () => {
               >
                 Create an Account
               </button>
-              <a
-                href="#"
-                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-slate-600 transition-all duration-200"
+              <Link
+                to="/shows"
+                className="hover:text-secondary transition-colors duration-200 font-normal"
               >
                 Shows
-              </a>
+              </Link>
               <a
                 href="#"
                 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-slate-600 transition-all duration-200"
