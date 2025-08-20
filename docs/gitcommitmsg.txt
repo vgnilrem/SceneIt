@@ -1,3 +1,0 @@
-Hero.jsx edited to include the registermodal allow it to popup when get started is clicked. 
-
-needed to edit the hero to allow registermodal to appear. The next step will be editing the nav bar to includ the registermodal on clickign create an account.
