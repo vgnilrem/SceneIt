@@ -1,5 +1,0 @@
-Nav working as intended. links set up for modal and shows page. 
-
-
-Added code to popup the register modal, shows page is also linked. Ready to be merged to develop to merge all of the components together.
-Still need to add links / modal for the log in, playlists, and search tabs.
