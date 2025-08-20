@@ -1,4 +1,4 @@
-Short description of commit
+Shows.jsx edited to have show page, fully styled. Needs to be linked to Nav and main
 
 
-Longer explanation of reasoning behind commit
+Shows.jsx template page created, fetch requests will be added for all geenral information. this is just a style tempalte that will make it easier to add fetches from api
