@@ -35,7 +35,8 @@ const Search = () => {
   }, [query]);
 
   return (
-    <div className="p-6 text-white">
+  <div className="bg-primary min-h-screen text-white"> 
+    <div className="max-w-7xl mx-auto px-6 py-8">
       <h1 className="text-2xl font-bold mb-4">
         Showing results for "{query}"
       </h1>
@@ -51,6 +52,7 @@ const Search = () => {
           <ShowCard key={show.id} show={show} />
         ))}
       </div>
+    </div>
     </div>
   );
 };
