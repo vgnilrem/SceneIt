@@ -1,9 +1,1 @@
-Changes: Added a showpage.jsx file which features TV show details, rating, and similar shows as well routing for the new page
-
-Addded routing 
-Fetches TV show details and similar shows from TMDB API using show ID from URL params
-Displays poster, title, rating, creators, seasons, episodes, and overview
-Adds interactive 5-star user rating system
-Implements toggles for "Watched" and "Listed" status
-Renders similar shows grid using ShowCard component
-Handles loading and error states 
+Removed accidental u in main.jsx
