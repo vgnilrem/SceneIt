@@ -32,7 +32,7 @@ const Nav = () => {
   return (
     <>
       <nav className="bg-primary text-white shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto py-3 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center">
@@ -58,13 +58,13 @@ const Nav = () => {
                   Create an Account
                 </button>
                 <Link
-                  to="/shows"
+                  to="/"
                   className="hover:text-secondary transition-colors duration-200 font-normal"
                 >
                   Shows
                 </Link>
                 <a
-                  href="#"
+                  href=""
                   className="hover:text-secondary transition-colors duration-200 font-normal"
                 >
                   Playlists
@@ -109,13 +109,13 @@ const Nav = () => {
                 Create an Account
               </button>
               <Link
-                to="/shows"
+                to=""
                 className="hover:text-secondary transition-colors duration-200 font-normal"
               >
                 Shows
               </Link>
               <a
-                href="#"
+                href=""
                 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-slate-600 transition-all duration-200"
               >
                 Playlists
