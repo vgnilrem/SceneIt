@@ -8,6 +8,7 @@ import Home from "./pages/Home.jsx";
 import Shows from "./pages/Shows.jsx";
 // import Playlists from "./pages/Playlists.jsx";
 import Search from "./pages/Search.jsx";
+import ShowPage from "./pages/ShowPage.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/shows" element={<Shows />} />
         {/* <Route path="/playlists" element={<Playlists />} /> */}
         <Route path="/search" element={<Search />} />
+        <Route path="/show/:id" element={<ShowPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
