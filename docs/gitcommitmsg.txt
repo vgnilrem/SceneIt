@@ -1,3 +1,0 @@
-ShowCard.jsx to be edited in this commit in order to fit the screen correctly.
-
-only basic styling changes. no conflicts found, only additions to current lines.
