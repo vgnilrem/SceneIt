@@ -22,13 +22,14 @@ const ShowCard = ({ show }) => {
         console.error("Error fetching show details:", err);
       }
     };
+
     fetchDetails();
   }, [show.id]);
 
   return (
     <div
       onClick={() => navigate(`/show/${show.id}`)}
-      className="relative bg-gray-800 rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform transform hover:scale-105"
+      className="relative bg-gray-800 rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform transform hover:scale-105 w-full h-full"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -36,12 +37,12 @@ const ShowCard = ({ show }) => {
         <img
           src={`${IMAGE_BASE}${show.poster_path}`}
           alt={show.name}
-          className={`w-full h-72 object-cover transition-opacity duration-300 ${
+          className={`w-full h-full object-cover transition-opacity duration-300 ${
             hovered ? "opacity-50" : "opacity-100"
           }`}
         />
       ) : (
-        <div className="w-full h-72 bg-gray-600 flex items-center justify-center">
+        <div className="w-full h-full bg-gray-600 flex items-center justify-center">
           No Image
         </div>
       )}
