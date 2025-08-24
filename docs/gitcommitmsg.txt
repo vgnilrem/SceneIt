@@ -1,1 +1,3 @@
-In Pages/Search.jsx I replaced background color from white to our primary color
+Hero.jsx edited to include fetch requests, copying format from search.
+
+Hero.jsx placeholderes removed with real data, basic styling changed as well
