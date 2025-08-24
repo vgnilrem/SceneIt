@@ -1,1 +1,1 @@
-Removed accidental u in main.jsx
+Edited to remove shows from the nav bar. Shows .jsx will also be deleted.
