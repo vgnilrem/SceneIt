@@ -1,1 +1,1 @@
-In Pages/Search.jsx I replaced background color from white to our primary color
+Removed accidental u in main.jsx
