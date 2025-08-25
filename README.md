@@ -4,7 +4,7 @@
 
 ![Demo of SceneIt App](./docs/SceneItDemo.gif)
 
- [Check out the Live Demo here →]([./docs/SceneItDemo.gif](https://portfolio-4ybe.vercel.app/))
+ [Check out the Live Demo here →](https://portfolio-4ybe.vercel.app/)
 
 ## Features
 
