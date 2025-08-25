@@ -35,19 +35,19 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative w-full bg-[#023047] flex flex-col items-center text-center py-20 gap-12">
+    <section className="relative w-full bg-[#023047] flex flex-col items-center py-20 gap-12">
       {/* Tagline */}
-      <h2 className="text-lg md:text-4xl text-gray-300 max-w-lg leading-relaxed">
+      <h2 className="text-center text-lg md:text-4xl text-gray-300 max-w-lg leading-relaxed">
         <p>
-          <span className="text-secondary font-bold">Watch</span> your
+          <span className="text-center text-secondary font-bold">Watch</span> your
           favorite shows.
         </p>
         <p>
-          <span className="text-secondary font-bold">Share</span> your
+          <span className="text-center text-secondary font-bold">Share</span> your
           ratings.
         </p>
         <p>
-          <span className="text-secondary font-bold">Connect</span> with fans
+          <span className="text-center text-secondary font-bold">Connect</span> with fans
           just like you.
         </p>
       </h2>
