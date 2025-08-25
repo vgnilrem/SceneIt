@@ -49,7 +49,7 @@ export default function TrendingShows() {
   }
 
   return (
-    <div className="bg-primary py-12">
+    <div className="bg-primary pb-10">
       {/* Title */}
       <div className="w-full max-w-6xl mx-auto text-center">
         <h2 className="text-2xl md:text-3xl font-semibold text-gray-200">
@@ -62,7 +62,7 @@ export default function TrendingShows() {
       <div className="w-full max-w-6xl mx-auto flex items-center justify-center gap-6">
         {/* Left Arrow */}
         <button
-          className="transform rotate-180 p-3 rounded-full text-white hover:text-secondary disabled:opacity-40"
+          className="transform rotate-180 p-3 rounded-full text-white hover:text-secondary"
           onClick={handlePrev}
           disabled={currentIndex === 0}
         >
