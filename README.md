@@ -1,6 +1,6 @@
 # 🎬 SceneIt
 
-**SceneIt** is a web application that lets users browse movies and TV shows using **The Movie Database (TMDb) API**. Users can explore trending content, curated playlists, and **share reviews and ratings with each other**, creating a social hub for movie lovers. The frontend is built with **Vite + React** for a fast and modern development experience.
+**SceneIt** is a web application that lets users browse TV shows using **The Movie Database (TMDb) API**. Users can explore trending content, curated playlists, and **share reviews and ratings with each other**, creating a social hub for TV Show lovers. The frontend is built with **Vite + React** for a fast and modern development experience.
 
 ![Demo of SceneIt App](./docs/SceneItDemo.gif)
 
@@ -9,7 +9,7 @@
 
 - **Trending Shows**: Browse weekly trending movies and TV shows.  
 - **Curated Playlists**: Playlists with mini-show posters and hover effects.  
-- **User Reviews**: Share reviews and ratings for movies and TV shows with other users.  
+- **User Reviews**: Share reviews and ratings for TV shows with other users.  
 - **Social Interaction**: View and comment on playlists and show reviews.  
 - **Responsive Design**: Works on desktop and mobile devices.    
 - **Vite + React + Tailwind**: Modern frontend stack for fast development and performance.
