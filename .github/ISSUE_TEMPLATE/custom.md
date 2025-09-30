@@ -29,34 +29,34 @@ Define specific criteria that must be met for the task to be considered complete
 
 Estimation:
 
-BOLD/ITALICS - Provide time estimates for each task based on complexity and effort. Use story points or time units (e.g., hours) to estimate.
+- Provide time estimates for each task based on complexity and effort. Use story points or time units (e.g., hours) to estimate.
 
-HEADER 2 - Dependencies:
+- Dependencies:
 
-BOLD/ITALICS - Identify any dependencies on other tasks, team members, or external factors. Ensure that prerequisites are met before starting a task.
+- Identify any dependencies on other tasks, team members, or external factors. Ensure that prerequisites are met before starting a task.
 
-HEADER 2 - Priority:
+- Priority:
 
-BOLD/ITALICS - Assign a priority level to each task based on its importance and impact on the project. Prioritize tasks within the backlog or sprint.
+- Assign a priority level to each task based on its importance and impact on the project. Prioritize tasks within the backlog or sprint.
 
-HEADER 2 - Task Type:
+- Task Type:
 
-BOLD/ITALICS - Categorize tasks based on their type (e.g., development, testing, design). This helps in planning and resource allocation.
+- Categorize tasks based on their type (e.g., development, testing, design). This helps in planning and resource allocation.
 
-HEADER 2 - Subtasks:
+- Subtasks:
 
-BOLD/ITALICS - Break down larger tasks into smaller, manageable subtasks. This facilitates a more granular approach to tracking progress.
+- Break down larger tasks into smaller, manageable subtasks. This facilitates a more granular approach to tracking progress.
 
 LINE BREAK
 
-HEADER 2 - Testing Requirements:
+- Testing Requirements:
 
-BOLD/ITALICS - Specify testing requirements for each task, including unit tests and any necessary integration or end-to-end tests.
+- Specify testing requirements for each task, including unit tests and any necessary integration or end-to-end tests.
 
-HEADER 2 - Documentation:
+- Documentation:
 
-BOLD/ITALICS - Identify any documentation needs associated with the task. This may include code comments, API documentation, or end-user documentation.
+- Identify any documentation needs associated with the task. This may include code comments, API documentation, or end-user documentation.
 
-HEADER 2 - Definition of Done:
+- Definition of Done:
 
-BOLD/ITALICS - Clearly define what "done" means for each task. This includes meeting coding standards, passing tests, and completing documentation.
+- Clearly define what "done" means for each task. This includes meeting coding standards, passing tests, and completing documentation.
