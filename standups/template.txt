@@ -15,3 +15,12 @@ Team Member:
 - What are you going to work on?
 
 - Any near-future blockers and how can we support you?
+
+Note-taker:
+Daily Standup - Wednesday
+Team Member: 
+- What did you work on?
+
+- What are you going to work on?
+
+- Any near-future blockers and how can we support you?
