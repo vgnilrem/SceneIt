@@ -72,3 +72,51 @@ model Watchlist {
 
   @@unique([user_id, show_id])
 }
+// prisma/schema.prisma
+enum Genre {
+  ACTION
+  COMEDY
+  DRAMA
+  FANTASY
+  HORROR
+  ROMANCE
+  SCIFI
+  THRILLER
+  ANIMATION
+}
+
+model User {
+  id         String     @id @default(uuid())
+  username   String     @unique
+  playlists  Playlist[]
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+}
+
+model Show {
+  id         String      @id @default(uuid())
+  title      String
+  year       Int
+  genres     Genre[]
+  // reverse relation for many-to-many
+  playlists  Playlist[]  @relation("PlaylistShows", references: [id])
+  createdAt  DateTime    @default(now())
+  updatedAt  DateTime    @updatedAt
+
+  @@index([year])
+  @@index([title])
+}
+
+model Playlist {
+  id          String     @id @default(uuid())
+  name        String
+  isPublic    Boolean    @default(true)
+  ownerId     String
+  owner       User       @relation(fields: [ownerId], references: [id])
+  shows       Show[]     @relation("PlaylistShows", references: [id])
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@index([isPublic])
+  @@index([ownerId])
+}
